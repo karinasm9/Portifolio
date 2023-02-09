@@ -1,0 +1,15 @@
+@import url("formulario.css");
+
+:root {
+    --cor-de-fundo: #FFF5EE;
+    --branco: #FFFFFF;
+    --rosa: #FF1493;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "Josefin Sans";
+    --rosa2: #FF3E96;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --vermelho: #D94937;
+}

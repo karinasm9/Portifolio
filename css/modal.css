@@ -1,0 +1,79 @@
+.projeto{
+    width: 30rem;
+}
+
+.container{
+  align-items: center;
+}
+
+.projeto:hover {
+    transform: scale(1.1);
+    background: #ffaedc;
+    
+}
+
+.projeto1{
+    width: 35rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+  }
+   
+  .wrapper a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+  }
+   
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: #fff;
+    padding: 1em 2em;
+  }
+
+   
+  .modal__close {
+    color: #585858;
+    text-decoration: none;
+  }
+
+  h2{
+    text-align: center;
+  }
+   
+  h3{
+    text-align: center;
+    color: #4f4f4f;
+    margin-bottom: 5px;
+  }
